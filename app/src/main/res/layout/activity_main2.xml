@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btModuloA"
+        android:layout_width="184dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="#121111"
+        android:text="Historia"
+        android:textColor="#FFC107"
+        app:layout_constraintTop_toBottomOf="@+id/tVPrueba"
+        tools:layout_editor_absoluteX="104dp" />
+
+    <Button
+        android:id="@+id/btModuloB"
+        android:layout_width="183dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#0E0E0E"
+        android:text="Lugares"
+        android:textColor="#FFC107"
+        app:layout_constraintTop_toBottomOf="@+id/btModuloA"
+        tools:layout_editor_absoluteX="105dp" />
+
+    <Button
+        android:id="@+id/btAceptar"
+        android:layout_width="181dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#0C0C0C"
+        android:text="Retroceder"
+        android:textColor="#FFC107"
+        app:layout_constraintTop_toBottomOf="@+id/btModuloB"
+        tools:layout_editor_absoluteX="104dp" />
+
+    <TextView
+        android:id="@+id/tVPrueba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola,¿Que quieres saber?"
+        android:textColor="#191918"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="71dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
