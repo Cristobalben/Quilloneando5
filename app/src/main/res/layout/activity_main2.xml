@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
     tools:context=".MainActivity2">
 
     <Button
@@ -12,7 +13,7 @@
         android:layout_height="56dp"
         android:layout_marginTop="108dp"
         android:backgroundTint="#121111"
-        android:text="Historia"
+        android:text="Restaurantes"
         android:textColor="#FFC107"
         app:layout_constraintTop_toBottomOf="@+id/tVPrueba"
         tools:layout_editor_absoluteX="104dp" />
@@ -23,7 +24,7 @@
         android:layout_height="63dp"
         android:layout_marginTop="64dp"
         android:backgroundTint="#0E0E0E"
-        android:text="Lugares"
+        android:text="Sitios Turisticos"
         android:textColor="#FFC107"
         app:layout_constraintTop_toBottomOf="@+id/btModuloA"
         tools:layout_editor_absoluteX="105dp" />
