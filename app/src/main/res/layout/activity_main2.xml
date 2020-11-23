@@ -9,44 +9,60 @@
 
     <Button
         android:id="@+id/btModuloA"
-        android:layout_width="184dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="108dp"
+        android:layout_width="188dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="208dp"
         android:backgroundTint="#121111"
         android:text="Restaurantes"
         android:textColor="#FFC107"
-        app:layout_constraintTop_toBottomOf="@+id/tVPrueba"
-        tools:layout_editor_absoluteX="104dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btModuloB"
-        android:layout_width="183dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="164dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="208dp"
         android:backgroundTint="#0E0E0E"
         android:text="Sitios Turisticos"
         android:textColor="#FFC107"
-        app:layout_constraintTop_toBottomOf="@+id/btModuloA"
-        tools:layout_editor_absoluteX="105dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btAceptar"
         android:layout_width="181dp"
         android:layout_height="66dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginBottom="112dp"
         android:backgroundTint="#0C0C0C"
         android:text="Retroceder"
         android:textColor="#FFC107"
-        app:layout_constraintTop_toBottomOf="@+id/btModuloB"
-        tools:layout_editor_absoluteX="104dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/tVPrueba"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
         android:text="Hola,¿Que quieres saber?"
         android:textColor="#191918"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="71dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btmoduloc"
+        android:layout_width="91dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="284dp"
+        android:backgroundTint="#0E0E0E"
+        android:text="Cabañas"
+        android:textColor="#FFC107"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tVPrueba" />
 </androidx.constraintlayout.widget.ConstraintLayout>

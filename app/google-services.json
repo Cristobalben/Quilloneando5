@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "412115849524",
+    "firebase_url": "https://quilloneando.firebaseio.com",
+    "project_id": "quilloneando",
+    "storage_bucket": "quilloneando.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412115849524:android:e57491e886dd4fb44e5561",
+        "android_client_info": {
+          "package_name": "cl.isisur.quillone_ando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412115849524-unl3unl4irn6lptg9ttai4e72tjorgpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.isisur.quillone_ando",
+            "certificate_hash": "219a6798ab45ad94917e9e448e8693642df776bb"
+          }
+        },
+        {
+          "client_id": "412115849524-c192cbgndee2bg0p6tvj9nniridi561e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFcfFvHe1vw4Pi2h7_NLEZhI3YMuO3eW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412115849524-c192cbgndee2bg0p6tvj9nniridi561e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

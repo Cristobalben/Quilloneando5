@@ -41,7 +41,7 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //CODIGO BOTON REGRESAR
-                Intent Intent16 = new Intent(MainActivity3.this,MapsActivity.class);
+                Intent Intent16 = new Intent(MainActivity3.this,Mainmapa2.class);
                 startActivity(Intent16);
             }
         });
@@ -49,7 +49,7 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //CODIGO BOTON REGRESAR
-                Intent Intent16 = new Intent(MainActivity3.this,MapsActivity.class);
+                Intent Intent16 = new Intent(MainActivity3.this,Mapaactivity3.class);
                 startActivity(Intent16);
             }
         });
@@ -57,7 +57,7 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //CODIGO BOTON REGRESAR
-                Intent Intent16 = new Intent(MainActivity3.this,MapsActivity.class);
+                Intent Intent16 = new Intent(MainActivity3.this,Mapaactivity4.class);
                 startActivity(Intent16);
             }
         });
@@ -65,7 +65,7 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //CODIGO BOTON REGRESAR
-                Intent Intent16 = new Intent(MainActivity3.this,MapsActivity.class);
+                Intent Intent16 = new Intent(MainActivity3.this,Mapaactivity5.class);
                 startActivity(Intent16);
             }
         });
