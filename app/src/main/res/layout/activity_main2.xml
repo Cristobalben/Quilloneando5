@@ -46,23 +46,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
+        android:background="#090909"
         android:text="Hola,¿Que quieres saber?"
-        android:textColor="#191918"
+        android:textColor="#FFC107"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btmoduloc"
-        android:layout_width="91dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="284dp"
-        android:backgroundTint="#0E0E0E"
-        android:text="Cabañas"
-        android:textColor="#FFC107"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tVPrueba" />
 </androidx.constraintlayout.widget.ConstraintLayout>

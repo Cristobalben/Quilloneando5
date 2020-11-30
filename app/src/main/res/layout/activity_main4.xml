@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="136dp"
+        android:backgroundTint="#101010"
         android:text="Laguna Avendaño"
+        android:textColor="#FFC107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,7 +25,9 @@
         android:layout_height="45dp"
         android:layout_marginTop="136dp"
         android:layout_marginEnd="32dp"
+        android:backgroundTint="#050505"
         android:text="Bioparque"
+        android:textColor="#FFC107"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,7 +37,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="76dp"
+        android:backgroundTint="#090909"
         android:text="Cascadas Liucura"
+        android:textColor="#FFC107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button9" />
 
@@ -43,7 +49,9 @@
         android:layout_height="49dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="32dp"
+        android:backgroundTint="#0B0B0A"
         android:text="Sector la Balza"
+        android:textColor="#FFC107"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
 
@@ -53,7 +61,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="88dp"
-        android:text="Paque acuatico"
+        android:backgroundTint="#0B0B0B"
+        android:text="Parque acuatico"
+        android:textColor="#FFC107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button11" />
 
@@ -63,7 +73,9 @@
         android:layout_height="45dp"
         android:layout_marginTop="92dp"
         android:layout_marginEnd="32dp"
-        android:text="Rio itata"
+        android:backgroundTint="#050505"
+        android:text="Paso el Roble"
+        android:textColor="#FFC107"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button12" />
 
@@ -72,7 +84,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="52dp"
+        android:backgroundTint="#0B0A0A"
         android:text="Regresar"
+        android:textColor="#FFC107"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -82,9 +96,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
-        android:background="#8BC34A"
+        android:background="#0C0C0C"
         android:text="Lugares Turistico"
-        android:textColor="#0B0A0A"
+        android:textColor="#FFC107"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

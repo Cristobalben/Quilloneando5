@@ -31,8 +31,8 @@ public class Mapaactivity11 extends FragmentActivity implements OnMapReadyCallba
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng R8 = new LatLng(-36.906803,  -72.452908);
-        mMap.addMarker(new MarkerOptions().position(R8).title("Cascada Liucura "));
+        LatLng R8 = new LatLng(-36.757358,  -72.419613);
+        mMap.addMarker(new MarkerOptions().position(R8).title("Paso el roble "));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(R8,17 ));
     }
 }
